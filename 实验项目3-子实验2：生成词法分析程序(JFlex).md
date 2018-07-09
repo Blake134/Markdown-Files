@@ -31,6 +31,7 @@ grammar_cjkRuby: true
 ## Oberon-0语言词法规则的正则定义式
 module -> "MODULE" identifier ";" declarations 
 identifier -> 
+Number -> (0|\[1-9])(0-9)*
 Identifier -> \[a-zA-Z](\[a-zA-Z]|0-9)*
 Comment -> "(\*" (\[^\*] | "\*"+\[^\)])* "\*)"
 Separator -> ";"|","
