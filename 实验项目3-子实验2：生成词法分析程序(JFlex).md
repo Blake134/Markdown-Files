@@ -38,4 +38,6 @@ Separator = ";"|","
 Keyword = MODULE | BEGIN | END | CONST | TYPE | VAR | PROCEDURE | RECORD | ARRAY | OF | WHILE | DO | IF | THEN | ELSEIF | ELSE
 Operator = . | + | - | * | DIV | MOD | = | # | > | >= | < | <= | ~ | OR | & | ; | : | , | :=
 
-## 
+## 关于Oberon-0 语言与其他高级语言的词 法规 则之异同比较
+注释
+不支持嵌套注释像C++/C的/\*\*/，Oberon-0语言的就是(\*\*)
