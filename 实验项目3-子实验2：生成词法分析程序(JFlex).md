@@ -7,6 +7,14 @@ grammar_cjkRuby: true
 
 ## Oberon-0语言的词汇表
 
+|          | INTEGER, BOOLEAN, CONST, WHILE, IF, DO, ELSEIF, THEN, ELSE, BEGIN, END              |
+| -------- | ----------------------------------------------------------------------------------- |
+|          | MODULE, TYPE, PROCEDURE, RECORD, ARRAY, OF, DIV, MOD, OR, VAR, READ, WRITE, WRITELN |
+|          | ., +, -                                                                             |
+|          | -, \*, &, =, >, >=, <=, <, #, :=                                                     |
+| 结合符号 | ,, :, ;                                                                             |
+
+
 |保留字  | 单目运算符 | 双目运算符|结合符号|分隔符号|
 |------------- | -------------|-------------|-------------|-------------|
 |MODULE|.						|	+			|[]					|,|
@@ -29,8 +37,6 @@ grammar_cjkRuby: true
 上表按照其功能还有参加的运算数的个数。
 
 ## Oberon-0语言词法规则的正则定义式
-module -> "MODULE" identifier ";" declarations 
-identifier -> 
 Number -> (0|\[1-9])(0-9)*
 Identifier -> \[a-zA-Z](\[a-zA-Z]|0-9)*
 Comment -> "(\*" (\[^\*] | "\*"+\[^\)])* "\*)"
