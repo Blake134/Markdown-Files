@@ -12,7 +12,8 @@ grammar_cjkRuby: true
 |          | MODULE, TYPE, PROCEDURE, RECORD, ARRAY, OF, DIV, MOD, OR, VAR, READ, WRITE, WRITELN |
 |          | ., +, -                                                                             |
 |          | -, \*, &, =, >, >=, <=, <, #, :=                                                     |
-| 结合符号 | ,, :, ;                                                                             |
+| 结合符号 | [], (),                                                                             |
+| 分隔符号 | ,, :, ;                                                                             |
 
 
 |保留字  | 单目运算符 | 双目运算符|结合符号|分隔符号|
