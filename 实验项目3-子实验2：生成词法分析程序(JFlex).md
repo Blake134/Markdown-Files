@@ -7,8 +7,9 @@ grammar_cjkRuby: true
 
 ## Oberon-0语言的词汇表
 
-|关键字| INTEGER, BOOLEAN, CONST, WHILE, IF, DO, ELSEIF, THEN, ELSE, BEGIN, END              |
+| 项目 | 对应符号（词汇） |
 | -------- | ----------------------------------------------------------------------------------- |
+|关键字| INTEGER, BOOLEAN, CONST, WHILE, IF, DO, ELSEIF, THEN, ELSE, BEGIN, END              |
 |保留字| MODULE, TYPE, PROCEDURE, RECORD, ARRAY, OF, DIV, MOD, OR, VAR, READ, WRITE, WRITELN |
 |单目运算符| ., +, -                                                                             |
 |双目运算符| -, \*, &, =, >, >=, <=, <, #, :=                                                     |
